@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import './App.css'
 
 export default function App() {
 
@@ -11,9 +12,10 @@ export default function App() {
 	},[])
 
   	return (
-    	<div>
+    	<div className='server-data-container'>
+			<h3 className='h3'>Web Projects</h3>
 			{
-				typeof backendData.users === "undefined"
+				typeof backendData.webProjects === "undefined"
 
 				?
 
@@ -21,10 +23,10 @@ export default function App() {
 
 				:
 
-				backendData.users.map( (user, i) => {
+				backendData.webProjects.map( (project, i) => {
 					return (
 
-						<p key={i}>{user}</p>
+						<p key={i} className='server-data'>Web Project: {project}</p>
 					)
 				})
 			}

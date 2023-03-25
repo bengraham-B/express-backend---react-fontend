@@ -1,10 +1,16 @@
 const express = require("express")
 const app = express()
 
+const PORT = 5002
+
 app.get("/api", (req, res) => {
-    res.json({"users":["userOne", "userTwo", "userThree"]})
+    res.json({"webProjects":[
+        "Make an clock in ReactJS.", 
+        "Build an E-commerce site.", 
+        "Make a game in ReactJS"
+    ]})
 })
 
-app.listen(5002, () => {
-    console.log("Server Running on PORT:5002")
+app.listen(PORT, () => {
+    console.log("Server Running on PORT: " + PORT)
 })
