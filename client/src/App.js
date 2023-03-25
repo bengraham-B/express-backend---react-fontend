@@ -12,7 +12,22 @@ export default function App() {
 
   	return (
     	<div>
-			{backendData.users}
+			{
+				typeof backendData.users === "undefined"
+
+				?
+
+				<p>Loading...</p>
+
+				:
+
+				backendData.users.map( (user, i) => {
+					return (
+
+						<p key={i}>{user}</p>
+					)
+				})
+			}
 		</div>
   	)
 }
