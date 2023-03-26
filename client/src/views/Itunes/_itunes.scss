@@ -53,9 +53,7 @@
         flex-direction: column;
 
         .results-component {
-
-
-            width: 90%;
+            width: 80%;
             display: flex;
             flex-direction: row;
             outline: 1px solid black;
@@ -86,8 +84,17 @@
 
             .button-container {
                 @include flex-center();
-                
-                background: green;
+
+                button {
+                    padding: 7.5px;
+                    border:none;
+                    background: $primaryBlue;
+                    color: white;
+
+                    &:hover {
+                        box-shadow: 1px 1px 10px 1.5px $primaryBlue;
+                    }
+                }
             }
         }
 

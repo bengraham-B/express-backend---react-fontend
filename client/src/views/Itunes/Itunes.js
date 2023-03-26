@@ -160,7 +160,7 @@ export default function Itunes() {
 								</div>
 
 								<div className="button-container">
-									<button onClick={() => {hanldeFav(name)}}>FAV</button>
+									<button onClick={() => {hanldeFav(name)}}>Add To Favourites</button>
 								</div>
 
 							</div>

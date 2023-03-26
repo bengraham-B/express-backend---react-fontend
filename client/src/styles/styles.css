@@ -126,7 +126,7 @@
   flex-direction: column;
 }
 #ITUNES .display-results .results-component {
-  width: 90%;
+  width: 80%;
   display: flex;
   flex-direction: row;
   outline: 1px solid black;
@@ -156,5 +156,80 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: green;
+}
+#ITUNES .display-results .results-component .button-container button {
+  padding: 7.5px;
+  border: none;
+  background: rgb(19, 19, 224);
+  color: white;
+}
+#ITUNES .display-results .results-component .button-container button:hover {
+  box-shadow: 1px 1px 10px 1.5px rgb(19, 19, 224);
+}
+
+#FAV {
+  width: 100%;
+  min-height: 300px;
+  max-height: auto;
+}
+#FAV .title {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#FAV .title h3 {
+  font-size: 2.3em;
+}
+#FAV .column-wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+}
+#FAV .column-wrapper .fav-wrapper {
+  min-height: 400px;
+  max-height: auto;
+}
+#FAV .column-wrapper .fav-wrapper .title {
+  font-size: 2.1em;
+}
+#FAV .column-wrapper .fav-wrapper .comp-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#FAV_COMPONENT {
+  margin: 10px;
+  width: 80%;
+  height: 150px;
+  background: white;
+  min-height: 80px;
+  height: auto;
+}
+#FAV_COMPONENT .body {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 1px 1px 10px 1px grey;
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-template-rows: inherit;
+}
+#FAV_COMPONENT .body:hover {
+  box-shadow: 1px 1px 10px 2px rgb(19, 19, 224);
+}
+#FAV_COMPONENT .body .index-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+}
+#FAV_COMPONENT .body .index-wrapper p {
+  font-size: 1.4em;
+}
+#FAV_COMPONENT .body .details-wrapper .title-wrapper h5 {
+  font-size: 1.65em;
 }/*# sourceMappingURL=styles.css.map */
