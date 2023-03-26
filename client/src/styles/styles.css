@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Nabla&family=Poppins:wght@200;300&display=swap");
+* {
+  font-family: "poppins";
+  margin: 0;
+  padding: 0;
+}
+
+#HEADER {
+  width: 100%;
+  height: auto;
+  background: rgb(19, 19, 224);
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#HEADER .title-section {
+  font-size: 35px;
+  margin: 5px;
+}
+#HEADER .link-section {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+#HEADER .link-section .links {
+  text-decoration: none;
+  color: white;
+  font-size: 21px;
+  margin: 5px;
+}
+#HEADER .link-section .links:hover {
+  color: black;
+}
+
+#HOME {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#HOME .container {
+  width: 65%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#HOME .container .text {
+  margin: 20px;
+  width: 85%;
+  font-size: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#HOME .container .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px;
+  width: 45%;
+}
+#HOME .container .buttons .btn {
+  height: 70px;
+  width: 140px;
+  font-size: 1.5em;
+  border-radius: 15px;
+  border: none;
+  background: rgb(19, 19, 224);
+  color: white;
+}
+#HOME .container .buttons .btn:hover {
+  box-shadow: 1px 1px 10px 1.5px rgb(19, 19, 224);
+}
+
+#ITUNES {
+  width: 100%;
+  height: 88vh;
+}
+#ITUNES .title-container {
+  width: 100%;
+  height: 5vh;
+  margin: 12px;
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ITUNES .search-bar-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+#ITUNES .search-bar-container .search-bar {
+  padding: 10px;
+  width: 40%;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+#ITUNES .search-bar-container .search-bar input {
+  width: 400px;
+  padding: 5px;
+}
+#ITUNES .search-bar-container .search-bar button {
+  width: 120px;
+  height: 40px;
+  border: none;
+  background: rgb(19, 19, 224);
+  color: white;
+}
+#ITUNES .search-bar-container .search-bar button:hover {
+  box-shadow: 1px 1px 10px 1.5px rgb(19, 19, 224);
+}
+#ITUNES .display-results {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#ITUNES .display-results .results-component {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  outline: 1px solid black;
+  margin: 5px;
+  display: grid;
+  grid-template-columns: 5% 75% 20%;
+  grid-template-rows: 100%;
+}
+#ITUNES .display-results .results-component .index-number {
+  height: 100%;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  font-size: 1.2em;
+}
+#ITUNES .display-results .results-component .compoenent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#ITUNES .display-results .results-component .compoenent .title {
+  font-size: 1.3em;
+}
+#ITUNES .display-results .results-component .button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: green;
+}/*# sourceMappingURL=styles.css.map */

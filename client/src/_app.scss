@@ -1,0 +1,36 @@
+#HEADER {
+    width: 100%;
+    height: auto;
+    background:  $primaryBlue;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .title-section {
+        font-size: 35px;
+        margin: 5px;
+    }
+
+    .link-section {
+        width: 100%;
+        display: flex;
+        align-items:flex-end;
+        justify-content: space-around;
+        
+
+        .links {
+            text-decoration: none;
+            color: white;
+            font-size: 21px;
+            margin: 5px;
+
+            &:hover{
+                color: black;
+
+
+            }
+        }
+    }
+}

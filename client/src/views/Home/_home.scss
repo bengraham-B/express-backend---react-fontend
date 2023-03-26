@@ -1,0 +1,50 @@
+#HOME {
+    width: 100%;
+    height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .container{
+        width: 65%;
+        height: 500px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        .text {
+            margin: 20px;
+            width: 85%;
+            font-size: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .buttons {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 20px;
+            width: 45%;
+
+            .btn {
+                height: 70px;
+                width: 140px;
+                font-size: 1.5em;
+                border-radius: 15px;
+                border: none;
+                background: $primaryBlue;
+                color: white;
+
+                &:hover {
+                    box-shadow: 1px 1px 10px 1.5px $primaryBlue;
+                }
+            }
+
+        }
+    }
+}

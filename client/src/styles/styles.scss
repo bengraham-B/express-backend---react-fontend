@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Poppins:wght@200;300&display=swap');
+
+*{
+    font-family: "poppins";
+    margin: 0;
+    padding: 0;
+}
+
+
+$primaryBlue: rgb(19, 19, 224);
+
+
+@mixin flex-center () {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@import '../app';
+@import '../views/Home/home';
+@import '../views/Itunes/itunes';
+@import '../views/Books/books';
+@import '../views/Fav/fav';
+@import '../views/Fav/FavComponent/fav-component';
